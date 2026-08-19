@@ -14,10 +14,10 @@ As bibliotecas usadas foram:
 - keyboard - https://pypi.org/project/keyboard/
 
 
-# Keylogger_Local
+# Ransoware Local
 Código para fins educativos e utilizado em ambiente de teste controlado, com VMs e máquinas prontas para uso do malware.
 
-Uma versão local do Keylogger, simples e que necessita de código rodando em aberto no PC da vítima para funcionar corretamente, não é tão discreto, porém pode funcionar também em segundo plano com o arquivo sendo executado em .pyw. 
+Uma versão local de um ransoware que criptografa e descriptografa arquivos de forma simples, e que necessita de código rodando em aberto no PC da vítima para funcionar corretamente, não é tão discreto, porém pode funcionar também em segundo plano com o arquivo sendo executado em .pyw. 
 
 As bibliotecas usadas foram:
 - Python Documentation — https://docs.python.org/3/
