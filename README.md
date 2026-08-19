@@ -10,3 +10,15 @@ As bibliotecas usadas foram:
 - Cryptography (Fernet) — https://cryptography.io/
 - pynput — https://pypi.org/project/pynput/
 - smtplib — https://docs.python.org/3/library/smtplib.html
+- pip - https://pip.pypa.io/en/stable/
+
+# Keylogger_Local
+Código para fins educativos e utilizado em ambiente de teste controlado, com VMs e máquinas prontas para uso do malware.
+
+Uma versão local do Keylogger para email, simples e que necessita de código rodando em aberto no PC da vítima. 
+
+As bibliotecas usadas foram:
+- Python Documentation — https://docs.python.org/3/
+- Cryptography (Fernet) — https://cryptography.io/
+- pynput — https://pypi.org/project/pynput/
+- pip - https://pip.pypa.io/en/stable/
