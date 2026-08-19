@@ -1,4 +1,4 @@
-# Keylogger_Via_Email
+# Keylogger Via Email
 Código para fins educativos e utilizado em ambiente de teste controlado, com VMs e máquinas prontas para uso do malware.
 
 Versão inicial do Keylogger, com a ideia de capturar o conteúdo escrito pela vítima e ser enviada via SMTP do Google, através de uma conta gmail (Que necessariamente precisa estar verificada a um número de Telefone ou MFA2), pode funcionar também em segundo plano com o arquivo sendo executado em .pyw.
